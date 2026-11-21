@@ -140,3 +140,21 @@ Additional endpoint telemetry and event correlation would be required for deeper
 - [x] Incident classification documented.
 
 **Result:** Successful validation of Wazuh FIM detection on a Linux endpoint.
+
+## 11. Visual Evidence
+
+### FIM Event Detection
+
+The Wazuh Dashboard detected two file integrity events: file creation and modification.
+
+![FIM Event Detection](Screenshot%202026-11-21%20at%2010.23.45.png)
+
+### Alert Details
+
+Detailed analysis of the file modification event, including changed attributes and checksums.
+
+![Wazuh Alert Details](Screenshot%202026-11-21%20at%2010.29.06.png)
+
+### Additional Dashboard Evidence
+
+![Additional Dashboard Evidence](Screenshot%202026-11-21%20at%2010.29.24.png)
